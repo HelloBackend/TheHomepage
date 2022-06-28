@@ -1,3 +1,7 @@
+body {
+    background-image: url('bgtexture.jpg');
+
+}
 header, nav, section, aside, footer {
     display: block;
 }
@@ -25,12 +29,12 @@ a.menu {
     margin: 1em;
     padding: 1em;
     font-weight: bold;
-    color: #555;
+    color: #000;
     background: transparent;
     text-decoration: none;
 }
 a.menu:hover {
-    color: #ddd;
+    color: #006;
 }
 article.youtubecontainer {
     width: 560px;
