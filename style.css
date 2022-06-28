@@ -1,6 +1,5 @@
 body {
-    background-image: url('bgtexture.jpg');
-
+    background-color:#ddf;
 }
 header, nav, section, aside, footer {
     display: block;
