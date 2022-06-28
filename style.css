@@ -32,3 +32,7 @@ a.menu {
 a.menu:hover {
     color: #ddd;
 }
+article.youtubecontainer {
+    width: 560px;
+    padding: 20px;
+}
