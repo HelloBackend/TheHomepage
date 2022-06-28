@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MY MUSIC HOUSE</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form#contact {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    label, input {
+      display: inline-block;
+    }
+    p.contactform label {
+      color: #333;
+    }
+    p.contactform input:not(#send), textarea {
+      width: 100%;
+      max-width: 60em;
+      padding: 5px;
+      margin: 5px;
+      border-style: hidden;
+      box-sizing: content-box;
+      background: rgba(0, 0, 0, 10%);
+    }
+    p.contactform input#send {
+      background-color: #CCC;
+      color: #333;
+      padding: 5px;
+      margin: 0;
+      border-style: hidden;
+    }
+    p.contactform input#send:hover {
+      background-color: #EEE;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>MY MUSIC HOUSE</h1>
+</header>
+<nav class="menu">
+  <ul class="menu">
+    <li class="menu"><a class="menu" href="home.html">HOME</a></li>
+    <li class="menu"><a class="menu" href="lounge.html">LOUNGE</a></li>
+    <li class="menu"><a class="menu" href="bossanova.html">BOSSA NOVA</a></li>
+    <li class="menu"><a class="menu" href="cafemusic.html">CAFE MUSIC</a></li>
+    <li class="menu"><a class="menu" href="contact.html">CONTACT</a></li>
+  </ul>
+</nav>
+<aside>
+
+</aside>
+<section>
+  <form id="contact" method="get">
+    <!-- NAME -->
+    <p class="contactform">
+      <label for="name">NAME</label><br>
+      <input type="text" name="name">
+    </p>
+    <!-- E-MAIL -->
+    <p class="contactform">
+      <label for="email">E-MAIL</label><br>
+      <input type="email" name="email">
+    </p>
+    <!-- SUBJECT -->
+    <p class="contactform">
+      <label for="subject">SUBJECT</label><br>
+      <input type="text" name="subject">
+    </p>
+    <!-- MESSAGE -->
+    <p class="contactform">
+      <label for="message">MESSAGE</label><br>
+      <textarea name="message" rows="5"></textarea>
+    </p>
+    <!-- SEND -->
+    <p class="contactform">
+      <input type="submit" id="send" value="SEND">
+    </p>
+  </form>
+</section>
+<footer>
+
+</footer>
+</body>
+</html>
